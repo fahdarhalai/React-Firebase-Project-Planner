@@ -1,0 +1,200 @@
+html {
+  background-color: rgb(245, 245, 247);
+  color: rgb(70, 70, 70) !important;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+textarea.materialize-textarea{
+  height: 200px !important;
+}
+
+.project-summary .card-content:hover{
+  box-shadow: 0px 0px;
+}
+
+.dashboard #greetings{
+  padding: 0px 0px 0px 5px;
+  margin: 30px 0px 0px 0px;
+}
+
+.home #bg-image{
+  z-index: -1000;
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+  margin-top: -90px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.not-found #bg-404 {
+  z-index: -1000;
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+  margin-top: -90px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .home #bg-image {
+    margin-top: 0px;
+    height: 100%;
+    width: auto;
+  }
+
+  .not-found #bg-404 {
+    margin-top: 10%;
+    min-width: 0%;
+    min-height: 0%;
+  }
+}
+
+nav {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  background: none;
+  color: rgb(70, 70, 70);
+}
+
+nav a {
+  color: rgb(70, 70, 70) !important;
+  font-weight: 400;
+}
+
+nav ul a{
+  color: rgb(70, 70, 70) !important;
+  font-weight: 500;
+}
+
+nav .brand-logo {
+  width: 85%;
+}
+
+nav #logo {
+  width: 150px;
+  position: absolute;
+  top: 17px;
+}
+
+@media screen and (max-width: 992px){
+  nav #logo {
+    position: absolute;
+  }
+}
+
+nav i {
+  height: 0px !important;
+}
+
+nav ul li:hover{
+  background-color: rgb(245, 245, 247) !important;
+}
+
+nav #notif-btn i {
+  font-size: 20px;
+}
+
+nav #userdropdown-btn i, #notif-btn i  {
+  color: rgb(70, 70, 70);
+}
+
+nav #userdropdown-btn, #notif-btn {
+  position: relative;
+  top: -3px;
+  background-color: rgb(245, 245, 247);
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+nav a.btn-floating {
+  background-color: rgb(70, 70, 70);
+}
+
+nav #regular-menu{
+  margin-left: 140px;
+}
+
+.home .content {
+  position: relative;
+  top: 100px;
+}
+
+.home .content p {
+  font-size: 20px;
+}
+
+.content button {
+  font-size: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+nav #notif-btn, #userdropdown-btn {
+  z-index: 15;
+}
+
+nav .dropdown-container {
+  z-index: 10;
+  position: absolute;
+  height: 0px;
+}
+
+nav .dropdown-container .dropdown-menu {
+  position: relative;
+  top: 50px;
+}
+
+nav .dropdown-menu i {
+  z-index: 20;
+  position: relative;
+  top: -21px;
+  right: -275px;
+  font-size: 40px;
+  color: #eceff1;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}
+
+nav .dropdown-menu div.card-content{
+  position: relative;
+  top: -70px;
+}
+
+nav .dropdown-menu div.card-action{
+  position: relative;
+  top: -70px;
+  height: 30px;
+}
+
+nav .dropdown-menu#userdropdown-container i {
+  right: -225px;
+}
+
+.dropdown-menu#notification-container{
+  width: 300px;
+  right: 252px;
+}
+
+.dropdown-menu#userdropdown-container{
+  width: 250px;
+  right: 132px;
+}
